@@ -1,0 +1,3 @@
+[console_scripts]
+frog-pcgp = frog.examples.pcgp_example:main
+frog-vanilla = frog.examples.vanilla_example:main
