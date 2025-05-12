@@ -9,7 +9,7 @@ from frog.utils.plotting import plot_frog_results, calculate_fwhm
 
 def main():
     # Load experimental data
-    exp_trace = np.loadtxt('/Users/nihalfaiz/Documents/4th Year Project/CODE/preprocessed trace (2).txt')
+    exp_trace = np.loadtxt('preprocessed trace.txt')
     
     # Preprocess the trace
     exp_trace = preprocess_trace(exp_trace, noise_floor=26)

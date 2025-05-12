@@ -12,7 +12,7 @@ frog/core/common.py
 frog/core/pcgp.py
 frog/core/vanilla.py
 frog/examples/__init__.py
-frog/examples/pcgp_examples.py
+frog/examples/pcgp_example.py
 frog/examples/vanilla_example.py
 frog/utils/__init__.py
 frog/utils/plotting.py

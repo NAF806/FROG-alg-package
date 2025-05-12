@@ -79,17 +79,13 @@ retrieved_pulse, error_history = vanilla_frog.retrieve_pulse(
 
 ### Using the Examples
 
-The package includes example scripts that can be run from the command line:
+The package includes example scripts in the form of a Jupyter Notebook that can be saved and run: 
 
-```bash
-# Run PCGP example
-frog-pcgp
-
-# Run Vanilla FROG example
-frog-vanilla
+```
+Example.ipynb
 ```
 
-Note: You'll need to modify the example scripts to point to your experimental data files.
+Note: There is an example experimental trace called 'preprocessed trace.txt'.
 
 ## Package Structure
 
@@ -101,9 +97,8 @@ frog/
 ├── utils/          # Utility functions
 │   ├── trace_operations.py  # Trace preprocessing and padding
 │   └── plotting.py          # Plotting and analysis functions
-└── examples/       # Example scripts
-    ├── pcgp_example.py
-    └── vanilla_example.py
+├── Example.ipynb
+└──preprocessed trace.txt
 ```
 
 ## API Reference
@@ -133,13 +128,6 @@ pulse, error_history = vanilla.retrieve_pulse(initial_pulse, exp_trace, taus, ti
 - `calculate_fwhm(x, y)`: Calculate the FWHM of a pulse
 - `plot_frog_results(...)`: Plot comprehensive FROG results
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Citation
 
@@ -147,10 +135,10 @@ If you use this package in your research, please cite:
 
 ```
 @software{frog_package,
-  author = {Your Name},
-  title = {FROG: Frequency-Resolved Optical Gating},
+  author = {Nihal Faiz},
+  title = {FROG ALGORITHM IMPLEMENTATIONS},
   year = {2024},
-  url = {https://github.com/yourusername/frog}
+  url = {https://github.com/NAF806/frog}
 }
 ```
 

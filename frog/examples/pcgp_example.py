@@ -9,7 +9,7 @@ from frog.utils.plotting import plot_frog_results
 
 def main():
     # Load experimental data
-    exp_trace = np.loadtxt('/Users/nihalfaiz/Documents/4th Year Project/CODE/preprocessed trace (2).txt')
+    exp_trace = np.loadtxt('preprocessed trace.txt')
     
     # Preprocess the trace
     exp_trace = preprocess_trace(exp_trace, noise_floor=20)
@@ -58,10 +58,10 @@ def main():
     
     print(f"Final error: {error:.6f}")
     
-    # Save results
-    np.savetxt('recovered_pulse.txt', np.column_stack((t, np.abs(recovered_pulse), 
-                                                      np.angle(recovered_pulse))))
-    np.savetxt('recovered_trace.txt', recovered_trace)
+    # # Save results
+    # np.savetxt('recovered_pulse.txt', np.column_stack((t, np.abs(recovered_pulse), 
+    #                                                   np.angle(recovered_pulse))))
+    # np.savetxt('recovered_trace.txt', recovered_trace)
 
 
 if __name__ == "__main__":
