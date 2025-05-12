@@ -14,7 +14,7 @@ A Python package for pulse characterization using FROG (Frequency-Resolved Optic
 ### From source
 
 ```bash
-git clone https://github.com/NAF806/FROG-alg-package
+git clone https://github.com/NAF806/FROG-alg-package.git
 cd frog
 pip install -e .
 ```
