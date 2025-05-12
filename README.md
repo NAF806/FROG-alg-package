@@ -137,7 +137,7 @@ If you use this package in your research, please cite:
 @software{frog_package,
   author = {Nihal Faiz},
   title = {FROG ALGORITHM IMPLEMENTATIONS},
-  year = {2024},
+  year = {2025},
   url = {https://github.com/NAF806/frog}
 }
 ```
